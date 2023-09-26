@@ -20,15 +20,19 @@ header {
     padding: 1rem;
 }
 
-nav {
+ul{
     display: flex;
     gap: 2rem;
-
 }
 
-nav>a {
+li{
+    list-style: none;
+}
+
+li>a {
     color: aliceblue;
     text-decoration: none;
+    font-size: 1.2rem;
 }
 
 a:hover {
